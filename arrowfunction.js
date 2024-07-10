@@ -1,8 +1,8 @@
 let arr = [1, 3, 5, 7, 9, 2, 4, 6, 8];
-// 1.Viết một hàm arrow có tên là sumArray, nhận vào một mảng số nguyên và trả về tổng của các phần tử trong mảng.
+// 1.Viết một hàm arrow có tên là sumArray, nhận vào một mảng số nguyên và trả về tổng của các phần tử trong mảng.// reduce : tính tổng nâng cao duyệt mảng
 let sum = 0;
 let sumArray = arr => {
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {3
         sum += arr[i];
     }
     return sum;
@@ -17,7 +17,7 @@ let squareArray = squareArr => {
     return newarr;
 }
 console.log("2. Bình phương của các phần tử trong mảng", arr, "là:", squareArray(arr));
-// 3.Viết một hàm arrow có tên là filterGreaterThan, nhận vào một mảng số nguyên và một giá trị nguyên, trả về một mảng mới chứa các phần tử lớn hơn giá trị được đưa vào.
+// 3.Viết một hàm arrow có tên là filterGreaterThan, nhận vào một mảng số nguyên và một giá trị nguyên, trả về một mảng mới chứa các phần tử lớn hơn giá trị được đưa vào.// filter : lọc
 let newfilter = [];
 let n = 5;
 let filterGreaterThan = filterarr => {
@@ -29,7 +29,7 @@ let filterGreaterThan = filterarr => {
     return newfilter;
 }
 console.log("3. Các phần tử lớn hơn", n ,"là:", filterGreaterThan(arr))
-// 4.Viết một hàm arrow có tên là maxInArray, nhận vào một mảng và trả về một giá tại lớn nhất trong mảng ban đầu.
+// 4.Viết một hàm arrow có tên là maxInArray, nhận vào một mảng và trả về một giá tại lớn nhất trong mảng ban đầu.// Math.max(...arr)
 let max = arr[0];
 let maxInArray = maxarr => {
     for (let i = 0; i < maxarr.length; i++) {

@@ -38,7 +38,7 @@ console.log("3. Mảng mới chứa giá trị của thuộc tính name là: ", 
 // 4.Sử dụng map để chuyển đổi một mảng các số thành một mảng mới chứa chuỗi "even" hoặc "odd" tương ứng với mỗi số.
 let newchanle = [];
 arr.map(i => {
-    if (i % 2 === 0) {
+    if (i % 2 === 0) {// toan tử 3 ngôi: i % 2 === 0 ? "even" : "odd";
         i = 'even';
     } else {
         i = 'odd';
